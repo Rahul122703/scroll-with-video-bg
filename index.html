@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINE SCROLL WEBSITE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <header id="home">
+      <div class="video_container">
+        <video muted autoplay loop class="video">
+          <source src="./video2.mp4" type="video/mp4"
+            class />
+        </video>
+      </div>
+      <div class="video_ovelay"></div>
+      <div class="container_container">
+        <div class="container">
+          <h1>scroll project</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+            neque sunt in? Id, necessitatibus quos quisquam distinctio
+            laudantium fugiat?
+          </p>
+          <a href="#tours" class="explore_tour_button">explore tours</a>
+        </div>
+      </div>
+
+      <div class="phone_nav">
+        <div class="nav_container2 ">
+          <div class="top_container">
+            <div class="logo_container2">
+              <img src="./logo.svg" class="logo2">
+            </div>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div class="links_container">
+            <div class="btm_container">
+              <div href="#home" class="nav_link2 scroll-link">home</div>
+              <div href="#about" class="nav_link2 scroll-link">about</div>
+              <div href="#services" class="nav_link2 scroll-link">services</div>
+              <div href="#tours" class="nav_link2 scroll-link">tours</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav id="window_nav" class="none">
+        <div class="nav_container">
+          <div class="logo_container">
+            <img src="./logo.svg" class="logo">
+
+          </div>
+          <div class="link_container">
+            <div href="#home" class="nav_link scroll-link">home</div>
+            <div href="#about" class="nav_link scroll-link">about</div>
+            <div href="#services" class="nav_link scroll-link">services</div>
+            <div href="#tours" class="nav_link scroll-link">tours</div>
+          </div>
+        </div>
+      </nav>
+      <a class="scroll-link top-link top_link_hide" href="#home">
+        <i class="fas fa-arrow-up">/\</i>
+      </a>
+    </header>
+
+    <section class="about_section" id="about">
+      <div class="section">
+        <h1>About Us</h1>
+      </div>
+    </section>
+
+    <section class="services_section" id="services">
+      <div class="section">
+        <h1>Our Services</h1>
+      </div>
+    </section>
+
+    <section class="tour_section" id="tours">
+      <div class="section">
+        <h1>Featured Tours</h1>
+      </div>
+    </section>
+
+    <footer class="footer_section">
+      <p>
+        copyright &copy; backroads travel tours company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
